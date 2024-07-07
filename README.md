@@ -1,1 +1,126 @@
-# Personal-website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shriyash's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .showcase {
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            min-height: 400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-bottom: 10px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Shriyash's Webpage</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="showcase">
+        <div class="container">
+            <h1>Welcome to My Personal Webpage</h1>
+            <p>Mechanical Engineer | MSc Student at University of Alberta</p>
+        </div>
+    </section>
+    <div class="container">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>My name is Shriyash, and I am a mechanical engineer currently pursuing my MSc at the University of Alberta. I have a passion for understanding the mechanics of how things work and applying this knowledge to solve real-world problems.</p>
+        </div>
+        <div class="content">
+            <h2>Hobbies and Interests</h2>
+            <ul>
+                <li>Watching and playing cricket</li>
+                <li>Playing badminton</li>
+                <li>Watching movies and documentaries</li>
+                <li>Listening to music</li>
+                <li>Hiking</li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>Contact Information</h2>
+            <p>You can reach me via email at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+            <p>Connect with me on <a href="https://www.linkedin.com/in/your-linkedin-profile">LinkedIn</a> or follow me on <a href="https://twitter.com/your-twitter-handle">Twitter</a>.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Shriyash</p>
+    </footer>
+</body>
+</html>
